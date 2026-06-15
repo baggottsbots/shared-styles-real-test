@@ -35,3 +35,9 @@
     .nav-link:hover,.nav-link:focus{color:var(--text)}
     .accent{color:var(--accent)}
     .accent-bg{background:var(--accent)}
+
+/* ===== BASE THEME ===== */
+    :root{--teal:#36D6B5;--bg:#07121d;--card:#0d1b2a;--line:#183044;--text:#e7f2f7;--muted:#9bb2c0}
+    body{background:radial-gradient(circle at top,#0e2234 0,#07121d 55%);color:var(--text)}
+    .accent{color:var(--teal)}
+    .accent-bg{background:var(--teal)}
